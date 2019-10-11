@@ -1,7 +1,8 @@
 import React from 'react'
 
 const MoreButton = (props) => {
-    return <button onClick={/* Fill me in! */ null}>
+  //on click of the more sushi button, call the moreClickHandler function which was sent down as a prop
+    return <button onClick={props.moreClickHandler}>
             More sushi!
           </button>
 }

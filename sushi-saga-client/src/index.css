@@ -14,9 +14,14 @@ body {
       ". . . . ."
       ". bt bt bt ."
       ". . rm . ."
-      ". tb tb tb .";
+      ". tb tb tb ."
+      ". . sw . .";
 }
 
+.wallet {
+  grid-area: sw;
+  margin: auto;
+}
 
 .remaining {
   grid-area: rm;
